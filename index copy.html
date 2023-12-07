@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="hero">
+    <nav>
+        <img src="images/menu.png" class="menu-img">
+        <img src="images/logo.jpeg" class="logo">
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href=""></a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+    </nav>
+
+    <div class="lamp-container">
+        <img src="images/lamp.png" class="lamp">
+        <img src="images/light.png" class="light" id="light">
+    </div>
+
+    <div class="text-container" style="margin-top: 0%;">
+        <h1>Hybrid World<br>of Alternate Detection</h1>
+        <p style="text-align: justify;">Welcome to the Hybrid World of Alternate Detection, a dynamic realm where cutting-edge technologies converge to redefine how we perceive and interact with the world. In this immersive landscape, we harness the power of advanced detection techniques to uncover hidden insights and enable intelligent decision-making. From the precision of Object Detection and Lane Detection to the nuanced understanding facilitated by Optical Character Recognition and Number Plate Recognition, our journey extends to the intricacies of Body Posture Detection and the subtleties of Hand Gesture Detection. This amalgamation of diverse detection methodologies paints a vivid picture of the future—a world where technology seamlessly integrates with our surroundings, unveiling possibilities previously unseen. Join us on this exploration of innovation and discovery, where the Hybrid World of Alternate Detection unfolds before your eyes.</p>
+            <a href="" style="margin-bottom: 20%;">Check All Collections</a>
+        <!--<div class="control">
+            <p>04</p>
+            <div class="line"><span></span></div>
+            <p>05</p>
+        </div>-->
+    </div>
+</div>
+<div class="container">
+    <div class="bcol">
+      <div class="box">
+        <a href="OBJ.html" style="display: inline-block;
+        text-transform: none;
+        color: #fff;
+        background: #00986f;
+        text-align: center;
+        padding: 14px 40px;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        user-select: none;
+        cursor: pointer;
+        box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.35);
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-decoration: none;">Object Detection<br><br>AND<br><br>Lane Detection</a><br>
+      </div>
+    </div>
+    
+    <div class="bcol">
+      <div class="box">
+        <!--<label for="uploadBtn">Number Plate Recognition</label><br>-->
+        <a href="index.html" style="display: inline-block;
+        text-transform: none;
+        color: #fff;
+        background: #00986f;
+        text-align: center;
+        padding: 14px 40px;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        user-select: none;
+        cursor: pointer;
+        box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.35);
+        border-radius: 30px;
+        margin-top: 30px;  margin-bottom: 30px;
+        text-decoration: none;">Number Plate Recognition<br><br>AND<br><br>Hand Gesture Recognition</a><br>
+      </div>
+    </div>
+    
+    <div class="bcol">
+      <div class="box">
+       
+        <a href="index.html" style="display: inline-block;
+        text-transform: none;
+        color: #fff;
+        background: #00986f;
+        text-align: center;
+        padding: 14px 40px;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        user-select: none;
+        cursor: pointer;
+        box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.35);
+        border-radius: 30px;
+        margin-top: 30px;  margin-bottom: 30px;
+        text-decoration: none;">Body Posture Detection<br><br>AND<br><br>Hand Gesture Recognition</a><br>
+      </div>
+    </div>
+  </div>
+  
+
+
+<div class="hero">
+    <div class="pos_cen">
+        <h2 style="text-align: center;margin-top: 10px; margin-bottom: 10px; font-size: 50px;">Object Detection</h2>
+        <img class="img_deg" src="images/OD.png" style="margin-left: 20px;">
+        <p>"Object detection, a vital computer vision task, identifies and locates objects in images or video. It combines object classification and precise localization by drawing bounding boxes. It finds applications in autonomous vehicles, surveillance, facial recognition, and more. Deep learning, particularly CNNs, has revolutionized object detection with models like Faster R-CNN and YOLO. Large datasets such as COCO and Pascal VOC aid model training. Challenges include object variability and real-time processing requirements. Ethical concerns, particularly in surveillance and facial recognition, are prominent. Object detection continually evolves with more accurate and efficient models, contributing to the development of AI and computer vision applications."</p>
+        <input type="file" id="uploadBtn">
+        <label for="uploadBtn">Upload File</label>
+    </div>
+</div>
+
+<div class="hero" style="max-height: 10px;">
+    <div class="pos_cen">
+        <h2 style="text-align: center; margin-top: 10px;  margin-bottom: 10px; font-size: 50px;">Hand Gesture Recognition</h2>
+        <video controls muted loop src="images/HandGesture.mp4" class="img_deg" style="margin-left: 20px; width: 400px; height: 400px;">
+        <source src="images/HandGesture.mp4">
+        This browser does not support HTML5
+        </video>
+        <p>Hand gesture recognition is a technology that interprets human hand movements and poses for various applications. It involves capturing and analyzing hand gestures using cameras and sensors. Hand gestures can be a natural and intuitive way to interact with devices, especially in augmented reality, virtual reality, and gaming. It has applications in sign language translation, controlling smart devices, and even in healthcare for non-contact interactions. Deep learning techniques, like convolutional neural networks (CNNs) and recurrent neural networks (RNNs), have improved the accuracy of hand gesture recognition systems. However, challenges remain in handling complex gestures and ensuring real-time responsiveness for seamless human-computer interaction.</p>        <input type="file" id="uploadBtn">
+        <label for="uploadBtn">Upload File</label>
+    </div>
+</div>
+
+
+
+<script>
+    var btn = document.getElementById("btn");
+    var light = document.getElementById("light");
+
+    function toggleBtn(){
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+    }
+</script>
+</body>
+</html>
